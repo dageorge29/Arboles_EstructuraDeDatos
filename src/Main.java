@@ -6,24 +6,28 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         BinarySearchTree bst = new BinarySearchTree();
 
-        bst.insertar(50);
-        bst.insertar(30);
-        bst.insertar(70);
-        bst.insertar(20);
-        bst.insertar(40);
+        //Determina la cantidad de hojas en el arbol
+        System.out.println("Ingresa la cantidad de números que tendrá el árbol");
+        int cantidadHojas = sc.nextInt();
+        for (int i = 0; i < cantidadHojas; i++) {
+            System.out.println("Ingresa un número: ");
+            bst.insertar(sc.nextInt());
+        }
 
+        //Hace el recorrido del algoritmo en el arbol
         System.out.println("Recorrido In-Order:");
         bst.recorrerInOrder(bst.raiz);
 
         boolean validar = false;
         System.out.println("\n===============================");
         do {
+            //Buscar núemero
             System.out.println("\nDeseas buscar un número? (y/n)");
             char opc = sc.next().charAt(0);
             if (opc == 'y') {
                 System.out.println("\nIngresa un número para buscarlo en el arbol");
                 int numAbuscar = sc.nextInt();
-                boolean existeNumero = bst.existeValor(bst.raiz, numAbuscar);
+                boolean existeNumero = bst.existeValor(bst.raiz, numAbuscar); //Valida que exista el número buscando en todas sus direcciones
                 System.out.println("Existe? " + existeNumero);
                 validar = true;
             }
