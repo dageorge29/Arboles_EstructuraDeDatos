@@ -57,7 +57,7 @@ Jorge Andrés Murillo Rivera
 
 A continuación se muestra un ejemplo de cómo interactúa el programa:
 
-```text
+
 
 ![img_1.png](img_1.png)
 
@@ -65,7 +65,7 @@ A continuación se muestra un ejemplo de cómo interactúa el programa:
 ![img_2.png](img_2.png)
 
 
-```
+
 
 ## 🛠️ Cómo ejecutar el proyecto
 
