@@ -39,4 +39,21 @@ public class BinarySearchTree {
             recorrerInOrder(nodo.derecho);
         }
     }
+
+    public boolean existeValor(Nodo actual, int valorBusqueda) {
+        // 1. Caso base: llegamos al final de una rama y no lo hallamos
+        if (actual == null) {
+            return false;
+        }
+
+        // 2. ¿Es el valor que buscamos?
+        if (actual.valor == valorBusqueda) {
+            return true;
+        }
+
+        // 3. Si no es, buscamos en el hijo izquierdo O en el derecho
+        // El operador || (OR) hace que si lo encuentra en un lado, ya no busque en el otro
+        return existeValor(actual.izquierdo, valorBusqueda) ||
+                existeValor(actual.derecho, valorBusqueda);
+    }
 }
