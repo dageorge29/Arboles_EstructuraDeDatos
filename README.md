@@ -78,7 +78,7 @@ A continuación se muestra un ejemplo de cómo interactúa el programa:
 
 
 ### Desarrollador
-Jorge Andrés Murillo Rivera
+Jorge Andrés Murillo Rivera (George)
 
 
 ---
