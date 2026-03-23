@@ -2,10 +2,23 @@
 
 Este proyecto implementa un Árbol Binario de Búsqueda (Binary Search Tree - BST) en Java. Permite a los usuarios insertar números, visualizar el recorrido en orden (in-order) y buscar elementos específicos dentro de la estructura.
 
-## 🎯 Objetivo Educativo
+## Objetivo Educativo
 La actividad busca que los estudiantes comprendan qué es un árbol binario y cómo se representa en Java, y que luego creen un programa básico que lo implemente.
 
-## 📂 Estructura del Proyecto y Clases
+## Cómo ejecutar el proyecto
+
+1. **Clonar el repositorio**:
+   ```bash
+   git clone https://github.com/dageorge29/Arboles_EstructuraDeDatos.git
+   ```
+2. **Compilar y ejecutar**:
+   Abre el proyecto en tu IDE favorito (IntelliJ IDEA, Eclipse, NetBeans) o compila desde la terminal:
+   ```bash
+   javac src/*.java
+   java -cp src Main
+   ```
+
+## Estructura del Proyecto y Clases
 
 El proyecto consta de tres clases principales ubicadas en la carpeta `src/`:
 
@@ -49,8 +62,6 @@ Se utilizó el paradigma de **Programación Orientada a Objetos (POO)** en Java.
 - La clase `BinarySearchTree` encapsula las operaciones usando **recursividad** para recorrer y manipular la estructura (tanto para insertar como para buscar).
 - La clase `Main` utiliza `java.util.Scanner` para capturar la entrada del usuario en consola.
 
-### Desarrollador
-Jorge Andrés Murillo Rivera
 
 
 ## 💻 Ejemplo de Ejecución en Consola
@@ -66,19 +77,9 @@ A continuación se muestra un ejemplo de cómo interactúa el programa:
 
 
 
+### Desarrollador
+Jorge Andrés Murillo Rivera
 
-## 🛠️ Cómo ejecutar el proyecto
-
-1. **Clonar el repositorio**:
-   ```bash
-   git clone https://github.com/dageorge29/Arboles_EstructuraDeDatos.git
-   ```
-2. **Compilar y ejecutar**:
-   Abre el proyecto en tu IDE favorito (IntelliJ IDEA, Eclipse, NetBeans) o compila desde la terminal:
-   ```bash
-   javac src/*.java
-   java -cp src Main
-   ```
 
 ---
 **Nota**: También se puede ver el código directamente desde el repositorio desde el directorio 'src', ahí encontrarás todas las clases.
